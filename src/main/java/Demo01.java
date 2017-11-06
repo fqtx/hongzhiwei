@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Demo01 {
     //JUtil5
-    @Test
+//    @Test
     public void test01(){
         List list = new ArrayList();
         Map map = new LinkedHashMap();
@@ -13,7 +13,7 @@ public class Demo01 {
         map.put("b",2);
         list.add(map);
         //fastjson
-        String json = JSON.toJSONString(list);
-        System.out.println(json);
+//        String json = JSON.toJSONString(list);
+//        System.out.println(json);
     }
 }
